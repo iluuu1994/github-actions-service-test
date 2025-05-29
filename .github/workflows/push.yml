@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: List services
-        uses: sudo systemctl list-units --type=service --all
+        run: sudo systemctl list-units --type=service --all
